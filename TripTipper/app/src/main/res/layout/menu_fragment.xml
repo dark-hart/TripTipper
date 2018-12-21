@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#073452">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Select Station Destinations:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F2F2F2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#676D7B">
+
+            <Switch
+                android:id="@+id/oakGrove"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Oak Grove"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="oak grove"/>
+            <Switch
+                android:id="@+id/maldenCenter"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Malden Center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="malden center"/>
+            <Switch
+                android:id="@+id/wellington"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Wellington"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="wellington"/>
+            <Switch
+                android:id="@+id/assembly"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Assembly"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="assembly"/>
+            <Switch
+                android:id="@+id/sullivanSquare"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="SullivanSquare"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="sullivan square"/>
+            <Switch
+                android:id="@+id/communityCollege"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Community College"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="community college"/>
+            <Switch
+                android:id="@+id/northStation"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="North Station"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="north station"/>
+            <Switch
+                android:id="@+id/haymarket"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Haymarket"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="haymarket"/>
+            <Switch
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="State"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="state"/>
+            <Switch
+                android:id="@+id/downtownCrossing"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Downtown Crossing"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="downtown crossing"/>
+            <Switch
+                android:id="@+id/chinaTown"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="Chinatown"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFDA71"
+                android:contentDescription="china town"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
